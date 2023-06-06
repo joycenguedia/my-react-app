@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import axios from 'axios';
+ var axios;
 import {BiCheck} from 'react-icons/bi'
 
 const ListServices = () => {

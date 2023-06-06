@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import axios from 'axios'
+ var axios;
 const ListPortfolio = () => {
     const [data, setData] = useState([])
     useEffect(()=>{
